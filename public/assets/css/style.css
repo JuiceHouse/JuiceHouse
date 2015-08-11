@@ -1,38 +1,4 @@
-﻿/*@media (max-width: 375px) {
-  
-}
-*/
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-/* Styles */
-  #big-screen {
-        display:none;
-    }
-
-    #little-screen{
-        display:block;
-    }
-
-}
-
-
-
-
-
-
-
-
-
-    
-
-    .little-screen{
-        display:none;
-    }
-
-
+﻿
 
 
 
