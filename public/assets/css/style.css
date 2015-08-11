@@ -9,6 +9,41 @@
 
 }
 
+@media (max-width: 400px) {
+    .big-screen {
+        display:none;
+    }
+
+    #little-screen{
+        display:block;
+    }
+
+}
+
+
+@media (max-width: 380px) {
+    .big-screen {
+        display:none;
+    }
+
+    #little-screen{
+        display:block;
+    }
+
+}
+
+@media (max-width: 300px) {
+    .big-screen {
+        display:none;
+    }
+
+    #little-screen{
+        display:block;
+    }
+
+}
+
+
 
 
     .little-screen{
