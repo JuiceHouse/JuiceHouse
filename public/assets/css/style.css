@@ -1,5 +1,13 @@
 ﻿
+@media(max-width:375px) {
+    #little-screen{
+        display:block;
+    }
+}
 
+.little-screen{
+    display:none;
+}
 
 
 
