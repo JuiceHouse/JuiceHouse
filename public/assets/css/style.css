@@ -1,18 +1,23 @@
-﻿
-/*=============================================================
-    Authour URL: www.designbootstrap.com
+﻿@media (max-width: 480px) {
+    .big-screen {
+        display:none;
+    }
 
-    http://www.designbootstrap.com/
+    #little-screen{
+        display:block;
+    }
 
-    License: MIT
+}
 
-    http://opensource.org/licenses/MIT
 
-    100% Free To use For Personal And Commercial Use.
 
-    IN EXCHANGE JUST TELL PEOPLE ABOUT THIS WEBSITE
-   
-========================================================  */
+    .little-screen{
+        display:none;
+    }
+
+
+
+
 
 
 
