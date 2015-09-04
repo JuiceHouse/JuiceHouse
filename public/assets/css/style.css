@@ -65,7 +65,7 @@ section {
 
 /*STYLE OF BACKGROUND IMAGE*/
 #home {
-    background: url(../img/home.jpeg) no-repeat center center; /*Full Witdth background image*/
+    background: url(../img/background.jpg) no-repeat center center; /*Full Witdth background image*/
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;

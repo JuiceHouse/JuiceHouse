@@ -145,21 +145,31 @@ Room For LOGO
             </div>
             <div class="row text-center portfolio-item">
 
-               <div class="col-md-6 col-sm-6">
+               <div class="col-md-4 col-sm-4">
                     <div class="alert alert-info">
-                        <img class="btn img-responsive" data-toggle="modal" data-target="#Modal_menu" src="assets/img/1.jpg" class="img-responsive " alt="" />
+                        <img class="btn img-responsive" data-toggle="modal" data-target="#Modal_menu" src="assets/img/menu1.jpg" class="img-responsive " alt="" />
                         </button>
-                        <h3>Normal Menu</h3>
+                        <h3>Menu</h3>
                         <h5></h5>
                     </div>
                 </div>
 
 
-                    <div class="col-md-6 col-sm-6 ">
+                    <div class="col-md-4 col-sm-4">
                         <div class="alert alert-info">
-                                <img class="btn img-responsive" data-toggle="modal" data-target="#Modal_new_menu" src="assets/img/1.jpg" class="img-responsive " alt="" />
+                                <img class="btn img-responsive" data-toggle="modal" data-target="#Modal_catering_menu" src="assets/img/menu2.jpg" class="img-responsive " alt="" />
                             </button>
-                            <h3>Cantina Menu</h3>
+                            <h3>Catering Menu</h3>
+                            <h5></h5>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4 col-sm-4">
+                        <div class="alert alert-info">
+                                <img class="btn img-responsive" data-toggle="modal" data-target="#Modal_cantina_menu" src="assets/img/menu2.jpg" class="img-responsive " alt="" />
+                            </button>
+                            <h3>Cantina (Weekly) Menu</h3>
                             <h5></h5>
                         </div>
                     </div>
@@ -275,17 +285,41 @@ $(document).ready(function(){
 <!-- Modal for Cantina Menu -->
 <!-- Modal for Cantina Menu -->
 <!-- Modal for Cantina Menu -->
-<div id="Modal_new_menu" class="modal fade" role="dialog">
+<div id="Modal_cantina_menu" class="modal fade" role="dialog">
   <div class="modal-dialog">
 
     
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
+        <h4 class="modal-title">Catering Menu</h4>
       </div>
       <div class="modal-body jumbotron">
-        <p>Coming sood</p>
+      <img class="img-responsive" src="assets/img/cantina_menu.jpg">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Modal for Caterina Menu -->
+<!-- Modal for Caterina Menu -->
+<!-- Modal for Caterina Menu -->
+<!-- Modal for Caterina Menu -->
+<div id="Modal_catering_menu" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cantina - Weekly Menu</h4>
+      </div>
+      <div class="modal-body jumbotron">
+        <img class="img-responsive" src="assets/img/catering.jpg">
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
